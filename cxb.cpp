@@ -19,7 +19,7 @@ int main(int argv, char* argc[])
 	index = std::atoi(argc[2]);
 	value = (bool)std::atoi(argc[3]);
 	
-	bit = hex & (1 << index) > 0;
+	bit = (hex & (1 << index)) > 0;
 	if (bit == value) {
 		errorcode = 0;
 	}
