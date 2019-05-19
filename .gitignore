@@ -1,3 +1,5 @@
-*.vxcproj
-*.vxcproj*
+*.vcxproj*
 Debug/*
+Release/*
+x64/*
+x84/*
